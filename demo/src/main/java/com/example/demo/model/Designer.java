@@ -10,7 +10,7 @@ import javax.persistence.Id;
 
 @Entity(name="Designer")
 public class Designer {
-	
+	//hello
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="designer_id")
